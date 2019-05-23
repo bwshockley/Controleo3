@@ -41,8 +41,17 @@ Reflow Wizard
 * 1.4  Minor improvement (18 December 2017)
   * When switching between non-FAT and FAT16/FAT32 formatted cards, a reboot was needed.  This has been fixed.
   * Added comments and fixed spelling mistakes in the source code
+* 1.4a Modifications for Personal Build. (05/23/2019
+  * Pulled in code for Adding a graphical representation of the profile to the Reflow page.
+  * Updated Images / Graphics
+  * Minor Text Changes / Part number changes as appropriate.
 
+Original Code:
 Peter Easton 2017  
 whizoo.com
+
+Additional Code:
+Benjamin Shockley 2019
+minisam.cc
 
 
