@@ -21,16 +21,16 @@
 #define FONT_FIRST_12PT_BW_FIXED       (FONT_FIRST_9PT_BW_FIXED + 11)
 #define FONT_FIRST_22PT_BW_FIXED       (FONT_FIRST_12PT_BW_FIXED + 12)
 
-#define FONT_IMAGES                    (FONT_FIRST_22PT_BW_FIXED + 16)      //Index 228 - Internal Flash
-#define BITMAP_LEFT_ARROW              (FONT_IMAGES)                        //Index 228 - Internal Flash
-#define BITMAP_RIGHT_ARROW             (FONT_IMAGES + 1)                    //Index 229 - Internal Flash
-#define BITMAP_HOME                    (FONT_IMAGES + 2)                    //Index 230 - Internal Flash
-#define BITMAP_HELP                    (FONT_IMAGES + 3)                    //Index 231 - Internal Flash
-#define BITMAP_LEFT_BUTTON_BORDER      (FONT_IMAGES + 4)                    //Index 232 - Internal Flash
-#define BITMAP_RIGHT_BUTTON_BORDER     (FONT_IMAGES + 5)                    //Index 233 - Internal Flash
-#define BITMAP_SETTINGS                (FONT_IMAGES + 6)                    //Index 234 - Internal Flash
-#define BITMAP_ELEMENT_OFF             (FONT_IMAGES + 7)                    //Index 235 - Internal Flash
-#define BITMAP_ELEMENT_ON              (FONT_IMAGES + 8)                    //Index 236 - Internal Flash
+#define FONT_IMAGES                    (FONT_FIRST_22PT_BW_FIXED + 16)      //Index 227 - Internal Flash
+#define BITMAP_LEFT_ARROW              (FONT_IMAGES)                        //Index 227 - Internal Flash
+#define BITMAP_RIGHT_ARROW             (FONT_IMAGES + 1)                    //Index 228 - Internal Flash
+#define BITMAP_HOME                    (FONT_IMAGES + 2)                    //Index 229 - Internal Flash
+#define BITMAP_HELP                    (FONT_IMAGES + 3)                    //Index 230 - Internal Flash
+#define BITMAP_LEFT_BUTTON_BORDER      (FONT_IMAGES + 4)                    //Index 231 - Internal Flash
+#define BITMAP_RIGHT_BUTTON_BORDER     (FONT_IMAGES + 5)                    //Index 232 - Internal Flash
+#define BITMAP_SETTINGS                (FONT_IMAGES + 6)                    //Index 233 - Internal Flash
+#define BITMAP_ELEMENT_OFF             (FONT_IMAGES + 7)                    //Index 234 - Internal Flash
+#define BITMAP_ELEMENT_ON              (FONT_IMAGES + 8)                    //Index 235 - Internal Flash
 #define BITMAP_CONVECTION_FAN1         (FONT_IMAGES + 9)                    //Index 236 - Internal Flash
 #define BITMAP_CONVECTION_FAN2         (FONT_IMAGES + 10)                   //Index 237 - Internal Flash
 #define BITMAP_CONVECTION_FAN3         (FONT_IMAGES + 11)                   //Index 238 - Internal Flash
