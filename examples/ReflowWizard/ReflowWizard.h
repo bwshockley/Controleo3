@@ -21,39 +21,39 @@
 #define FONT_FIRST_12PT_BW_FIXED       (FONT_FIRST_9PT_BW_FIXED + 11)
 #define FONT_FIRST_22PT_BW_FIXED       (FONT_FIRST_12PT_BW_FIXED + 12)
 
-#define FONT_IMAGES                    (FONT_FIRST_22PT_BW_FIXED + 16)
-#define BITMAP_LEFT_ARROW              (FONT_IMAGES)
-#define BITMAP_RIGHT_ARROW             (FONT_IMAGES + 1)
-#define BITMAP_HOME                    (FONT_IMAGES + 2)
-#define BITMAP_HELP                    (FONT_IMAGES + 3)
-#define BITMAP_LEFT_BUTTON_BORDER      (FONT_IMAGES + 4)
-#define BITMAP_RIGHT_BUTTON_BORDER     (FONT_IMAGES + 5)
-#define BITMAP_SETTINGS                (FONT_IMAGES + 6)
-#define BITMAP_ELEMENT_OFF             (FONT_IMAGES + 7)
-#define BITMAP_ELEMENT_ON              (FONT_IMAGES + 8)
-#define BITMAP_CONVECTION_FAN1         (FONT_IMAGES + 9)
-#define BITMAP_CONVECTION_FAN2         (FONT_IMAGES + 10)
-#define BITMAP_CONVECTION_FAN3         (FONT_IMAGES + 11)
-#define BITMAP_COOLING_FAN1            (FONT_IMAGES + 12)
-#define BITMAP_COOLING_FAN2            (FONT_IMAGES + 13)
-#define BITMAP_COOLING_FAN3            (FONT_IMAGES + 14)
-#define BITMAP_CONTROLEO3              (FONT_IMAGES + 15)
-#define BITMAP_WHIZOO                  (FONT_IMAGES + 16)
-#define BITMAP_CONTROLEO3_SMALL        (FONT_IMAGES + 17)
-#define BITMAP_WHIZOO_SMALL            (FONT_IMAGES + 18)
-#define BITMAP_TRASH                   (FONT_IMAGES + 19)
-#define BITMAP_EXIT                    (FONT_IMAGES + 20)
-#define BITMAP_UP_SMALL_ARROW          (FONT_IMAGES + 21)
-#define BITMAP_DOWN_SMALL_ARROW        (FONT_IMAGES + 22)
-#define BITMAP_UP_ARROW                (FONT_IMAGES + 23)
-#define BITMAP_DOWN_ARROW              (FONT_IMAGES + 24)
-#define BITMAP_HELP_ICON               (FONT_IMAGES + 25)
-#define BITMAP_DECREASE_ARROW          (FONT_IMAGES + 26)
-#define BITMAP_INCREASE_ARROW          (FONT_IMAGES + 27)
-#define BITMAP_SMILEY_GOOD             (FONT_IMAGES + 28)
-#define BITMAP_SMILEY_NEUTRAL          (FONT_IMAGES + 29)
-#define BITMAP_SMILEY_BAD              (FONT_IMAGES + 30)
-#define BITMAP_LAST_ONE                BITMAP_SMILEY_BAD
+#define FONT_IMAGES                    (FONT_FIRST_22PT_BW_FIXED + 16)      //Index 228 - Internal Flash
+#define BITMAP_LEFT_ARROW              (FONT_IMAGES)                        //Index 228 - Internal Flash
+#define BITMAP_RIGHT_ARROW             (FONT_IMAGES + 1)                    //Index 229 - Internal Flash
+#define BITMAP_HOME                    (FONT_IMAGES + 2)                    //Index 230 - Internal Flash
+#define BITMAP_HELP                    (FONT_IMAGES + 3)                    //Index 231 - Internal Flash
+#define BITMAP_LEFT_BUTTON_BORDER      (FONT_IMAGES + 4)                    //Index 232 - Internal Flash
+#define BITMAP_RIGHT_BUTTON_BORDER     (FONT_IMAGES + 5)                    //Index 233 - Internal Flash
+#define BITMAP_SETTINGS                (FONT_IMAGES + 6)                    //Index 234 - Internal Flash
+#define BITMAP_ELEMENT_OFF             (FONT_IMAGES + 7)                    //Index 235 - Internal Flash
+#define BITMAP_ELEMENT_ON              (FONT_IMAGES + 8)                    //Index 236 - Internal Flash
+#define BITMAP_CONVECTION_FAN1         (FONT_IMAGES + 9)                    //Index 236 - Internal Flash
+#define BITMAP_CONVECTION_FAN2         (FONT_IMAGES + 10)                   //Index 237 - Internal Flash
+#define BITMAP_CONVECTION_FAN3         (FONT_IMAGES + 11)                   //Index 238 - Internal Flash
+#define BITMAP_COOLING_FAN1            (FONT_IMAGES + 12)                   //Index 239 - Internal Flash
+#define BITMAP_COOLING_FAN2            (FONT_IMAGES + 13)                   //Index 240 - Internal Flash
+#define BITMAP_COOLING_FAN3            (FONT_IMAGES + 14)                   //Index 241 - Internal Flash
+#define BITMAP_CONTROLEO3              (FONT_IMAGES + 15)                   //Index 242 - External Flash
+#define BITMAP_WHIZOO                  (FONT_IMAGES + 16)                   //Index 243 - External Flash
+#define BITMAP_CONTROLEO3_SMALL        (FONT_IMAGES + 17)                   //Index 244 - External Flash
+#define BITMAP_WHIZOO_SMALL            (FONT_IMAGES + 18)                   //Index 245 - External Flash
+#define BITMAP_TRASH                   (FONT_IMAGES + 19)                   //Index 246 - External Flash
+#define BITMAP_EXIT                    (FONT_IMAGES + 20)                   //Index 247 - External Flash
+#define BITMAP_UP_SMALL_ARROW          (FONT_IMAGES + 21)                   //Index 248 - External Flash
+#define BITMAP_DOWN_SMALL_ARROW        (FONT_IMAGES + 22)                   //Index 249 - External Flash
+#define BITMAP_UP_ARROW                (FONT_IMAGES + 23)                   //Index 250 - External Flash
+#define BITMAP_DOWN_ARROW              (FONT_IMAGES + 24)                   //Index 251 - External Flash
+#define BITMAP_HELP_ICON               (FONT_IMAGES + 25)                   //Index 252 - External Flash
+#define BITMAP_DECREASE_ARROW          (FONT_IMAGES + 26)                   //Index 253 - External Flash
+#define BITMAP_INCREASE_ARROW          (FONT_IMAGES + 27)                   //Index 254 - External Flash
+#define BITMAP_SMILEY_GOOD             (FONT_IMAGES + 28)                   //Index 255 - External Flash
+#define BITMAP_SMILEY_NEUTRAL          (FONT_IMAGES + 29)                   //Index 256 - External Flash
+#define BITMAP_SMILEY_BAD              (FONT_IMAGES + 30)                   //Index 257 - External Flash
+#define BITMAP_LAST_ONE                BITMAP_SMILEY_BAD                    //Index 257 - External Flash
 
 
 // Height of the button in pixels
