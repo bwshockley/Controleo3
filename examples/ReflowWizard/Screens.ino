@@ -41,7 +41,7 @@ redraw:
     switch (screen) {
       case SCREEN_HOME: 
         // Draw the screen
-        renderBitmap(BITMAP_CONTROLEO3_SMALL, 106, 5);
+        // renderBitmap(BITMAP_CONTROLEO3_SMALL, 106, 5);
         drawTouchButton(110, 80, 260, 116, BUTTON_LARGE_FONT, (char *) "Reflow");
         drawTouchButton(110, 160, 260, 77, BUTTON_LARGE_FONT, (char *) "Bake");
         drawTouchButton(110, 240, 260, 182, BUTTON_LARGE_FONT, (char *) "Settings");
@@ -565,10 +565,10 @@ redraw:
                 
        case SCREEN_ABOUT:
         // Draw the screen
-        renderBitmap(BITMAP_CONTROLEO3_SMALL, 2, 5);
-        renderBitmap(BITMAP_WHIZOO_SMALL, 316, 21);
-        displayString(279, 30, FONT_9PT_BLACK_ON_WHITE, (char *) "by");
-        tft.fillRect(5, 57, 470, 3, LIGHT_GREY);
+        // renderBitmap(BITMAP_CONTROLEO3_SMALL, 2, 5);
+        // renderBitmap(BITMAP_WHIZOO_SMALL, 316, 21);
+        // displayString(279, 30, FONT_9PT_BLACK_ON_WHITE, (char *) "by");
+        // tft.fillRect(5, 57, 470, 3, LIGHT_GREY);
 
         // Display information
         displayString(10, 70, FONT_9PT_BLACK_ON_WHITE, (char *) "Software:");
