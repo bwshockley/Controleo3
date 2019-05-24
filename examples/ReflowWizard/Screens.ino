@@ -45,7 +45,7 @@ redraw:
         drawTouchButton(110, 80, 260, 116, BUTTON_LARGE_FONT, (char *) "Reflow");
         drawTouchButton(110, 160, 260, 77, BUTTON_LARGE_FONT, (char *) "Bake");
         drawTouchButton(110, 240, 260, 182, BUTTON_LARGE_FONT, (char *) "Settings");
-        renderBitmap(BITMAP_SETTINGS, 285, 252);
+        // renderBitmap(BITMAP_SETTINGS, 285, 252);
 
         // Act on the tap
         switch(getTap(DONT_SHOW_TEMPERATURE)) {
@@ -63,8 +63,8 @@ redraw:
         setTouchTemperatureUnitChangeCallback(displayBakeTemperatureAndDuration);
         drawTouchButton(140, 100, 200, 56, BUTTON_SMALL_FONT, (char *) "Start");
         drawTouchButton(140, 180, 200, 96, BUTTON_SMALL_FONT, (char *) "Edit");
-        renderBitmap(BITMAP_SETTINGS, 247, 192);
-        drawNavigationButtons(true, true);
+        // renderBitmap(BITMAP_SETTINGS, 247, 192);
+        drawNavigationButtons(true, tru e);
 
         // Act on the tap
         switch(getTap(SHOW_TEMPERATURE_IN_HEADER)) {
@@ -279,7 +279,7 @@ redraw:
                 
       case SCREEN_SETTINGS:
         // Draw the screen
-        displayHeader((char *) "Settings", true);
+        displayHeader((char *) "Settings", false);
         drawTouchButton(10, 45, 210, 50, BUTTON_SMALL_FONT, (char *) "Test");
         drawTouchButton(10, 120, 210, 97, BUTTON_SMALL_FONT, (char *) "Learning");
         drawTouchButton(10, 195, 210, 65, BUTTON_SMALL_FONT, (char *) "Reset");
